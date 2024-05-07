@@ -10,8 +10,8 @@
             <th scope="col">Seasons</th>
           </tr>
         </thead>
-        <tbody id="tvTbody" *ngFor="let serie of series">
-          <td>{{serie.index}}</td>
+        <tbody id="tvTbody" *ngFor="let serie of series; let i = index">
+          <td>{{i + 1}}</td>
           <td>{{serie.name}}</td>
           <td>{{serie.channel}}</td>
           <td>{{serie.seasons}}</td>

@@ -15,7 +15,7 @@ import { SeriesModule } from './series/series.module';
     SeriesModule,
     HttpClientModule
   ],
-  providers: [provideClientHydration()],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
